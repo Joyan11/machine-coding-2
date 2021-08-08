@@ -36,6 +36,34 @@ export const reducer = (state, action) => {
           }
         }),
       };
+    case "SAVE_FOR_LATER":
+      if (state.wishlist.some((item) => item.id === action.payload.id)) {
+        return {
+          ...state,
+        };
+      } else {
+        return {
+          ...state,
+          wishlist: [...state.wishlist, action.payload],
+          cart: state.cart.filter((item) => item.id !== action.payload.id),
+        };
+      }
+
+    case "MOVE_TO_CART":
+      if (state.cart.some((item) => item.id === action.payload.id)) {
+        return {
+          ...state,
+        };
+      } else {
+        return {
+          ...state,
+          cart: [...state.cart, action.payload],
+          wishlist: state.wishlist.filter(
+            (item) => item.id !== action.payload.id
+          ),
+        };
+      }
+
     case "UPDATE_CART_PRICE":
       const totalCost = state.cart.reduce((acc, item) => {
         const sum = item.price * item.quantity;

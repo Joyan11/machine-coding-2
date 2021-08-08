@@ -6,6 +6,7 @@ const mainContext = createContext();
 
 const initialState = {
   cart: [],
+  wishlist: [],
   totalPrice: 0,
   totalDiscount: 0,
 };

@@ -34,6 +34,12 @@ export const CartCard = ({ item }) => {
           {" "}
           Remove{" "}
         </button>
+        <button
+          className="btn btn--round btn-primary card--button"
+          onClick={() => dispatch({ type: "SAVE_FOR_LATER", payload: item })}>
+          {" "}
+          Save for Later{" "}
+        </button>
         <div
           style={{
             display: "flex",
