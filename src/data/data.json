@@ -1,0 +1,58 @@
+{
+  "productdata": [
+    {
+      "id": 1,
+      "image": "https://footballmonk.in/wp-content/uploads/2020/07/buy-manchester-united-home-jersey-2020-21-online-in-india-1-1.webp",
+      "name": "Man United [H]",
+      "price": 799.99,
+      "quantity": 0,
+      "stock": "instock",
+      "discount": 10
+    },
+    {
+      "id": 2,
+      "image": "https://footballmonk.in/wp-content/uploads/2020/07/Buy-FC-Barcelona-Home-Jersey-2020-21-online-in-India-1.webp",
+      "name": "Barcelona [H]",
+      "price": 799.99,
+      "quantity": 0,
+      "stock": "instock",
+      "discount": 10
+    },
+    {
+      "id": 3,
+      "image": "https://footballmonk.in/wp-content/uploads/2020/07/buy-juventus-home-jersey-2020-21-online-in-india-1-1.webp",
+      "name": "Juventus [H]",
+      "price": 799.99,
+      "quantity": 0,
+      "discount": 10,
+      "stock": "outofstock"
+    },
+    {
+      "id": 4,
+      "image": "https://footballmonk.in/wp-content/uploads/2020/07/buy-arsenal-home-jersey-online-in-india-1-1.webp",
+      "name": "Arsenal [H]",
+      "price": 499.99,
+      "quantity": 0,
+      "stock": "instock",
+      "discount": 10
+    },
+    {
+      "id": 5,
+      "image": "https://footballmonk.in/wp-content/uploads/2020/07/buy-manchester-home-away-jersey-2020-21-online-in-india-1.jpg",
+      "name": "Man United [A]",
+      "price": 899.99,
+      "quantity": 0,
+      "stock": "instock",
+      "discount": 10
+    },
+    {
+      "id": 6,
+      "image": "https://footballmonk.in/wp-content/uploads/2020/07/buy-manchester-home-away-jersey-2020-21-online-in-india-1.jpg",
+      "name": "Man United [A]",
+      "price": 899.99,
+      "quantity": 0,
+      "stock": "instock",
+      "discount": 10
+    }
+  ]
+}
