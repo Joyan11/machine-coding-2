@@ -15,7 +15,7 @@ export const ProductCard = ({ item }) => {
   };
 
   return (
-    <div className="card card--verticle card--m border product-card">
+    <div className="card card--verticle card--m border product-card shadow">
       <figure className="card--image">
         {" "}
         <img src={item.image} alt="" />{" "}

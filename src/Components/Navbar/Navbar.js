@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <nav className="nav nav-primary">
       <div className="nav--logo">
-        <p>My Company</p>
+        <p>FlipKart</p>
       </div>
       <ul className="list nav--list">
         <Link to="/" className="nav-item">
