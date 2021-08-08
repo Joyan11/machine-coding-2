@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import { useMainContext } from "../../context/context";
-import { CartCard } from "./CartCard";
-import { TotalCard } from "./TotalCard";
+import { useMainContext } from "../context/context";
+import { CartCard } from "../Components/Cart/CartCard";
+import { TotalCard } from "../Components/Cart/TotalCard";
 
 export const CartPage = () => {
   const { cart } = useMainContext();

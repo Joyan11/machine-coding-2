@@ -1,6 +1,6 @@
 /** @format */
-import data from "../../data/data.json";
-import { ProductCard } from "./ProductCard";
+import data from "../data/data.json";
+import { ProductCard } from "../Components/Product/ProductCard";
 export const Products = () => {
   const renderedProducts = data.productdata.map((item) => (
     <ProductCard item={item} />

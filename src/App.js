@@ -2,9 +2,9 @@
 
 import "./App.css";
 import { Navbar } from "./Components/Navbar/Navbar";
-import { Products } from "./Components/Product/Products";
+import { Products } from "./Pages/Products";
 import { Routes, Route } from "react-router-dom";
-import { CartPage } from "./Components/Cart/CartPage";
+import { CartPage } from "./Pages/CartPage";
 function App() {
   return (
     <div className="App">
